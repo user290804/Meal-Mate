@@ -1,0 +1,361 @@
+{
+  "users": [
+    {
+      "id": "e81f",
+      "email": "fatimatooba0804@gmail.com",
+      "firstName": "Tooba",
+      "lastName": "Fatima",
+      "password": "hEllo998!!2"
+    },
+    {
+      "id": "5978",
+      "email": "safiyahafatima@gmail.com",
+      "firstName": "Safiyah",
+      "lastName": "Fatima",
+      "password": "Iamsafiyah!!@@3"
+    },
+    {
+      "id": "d900",
+      "email": "kelvincelcius@gmail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "password": "horridHenry@@1"
+    },
+    {
+      "id": "9e9d",
+      "email": "ayeshakhan2004@gmail.com",
+      "firstName": "Ayesha",
+      "lastName": "Khan",
+      "password": "Cyrus2k4#",
+      "createdAt": "2025-08-10T18:40:26.913Z"
+    }
+  ],
+  "meals": [
+    {
+      "mealName": "salan w naan",
+      "mealTime": "Dinner",
+      "date": "2025-08-11",
+      "userId": "5978",
+      "id": "a81c"
+    },
+    {
+      "id": "31ef",
+      "mealName": "Cereal",
+      "mealTime": "Breakfast",
+      "date": "2025-08-05",
+      "userId": "5978"
+    },
+    {
+      "id": "1f7c",
+      "mealName": "Chicken karahi",
+      "mealTime": "Lunch",
+      "date": "2025-08-05",
+      "userId": "5978"
+    },
+    {
+      "id": "d6e4",
+      "mealName": "Chicken pasta",
+      "mealTime": "Dinner",
+      "date": "2025-08-05",
+      "userId": "5978"
+    },
+    {
+      "id": "30b8",
+      "mealName": "Banana",
+      "mealTime": "Snacks",
+      "date": "2025-08-05",
+      "userId": "5978"
+    },
+    {
+      "id": "2eff",
+      "mealName": "Chocolate ice cream",
+      "mealTime": "Dessert",
+      "date": "2025-08-05",
+      "userId": "5978"
+    },
+    {
+      "id": "d6a1",
+      "mealName": "Chicken pasta",
+      "mealTime": "Dinner",
+      "date": "2025-08-05",
+      "userId": "d900"
+    },
+    {
+      "id": "f96e",
+      "mealName": "Sushi",
+      "mealTime": "Dinner",
+      "date": "2025-08-05",
+      "userId": "e81f"
+    }
+  ],
+  "groceryLists": [
+    {
+      "id": "1",
+      "name": "Weekly Groceries",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "userId": "5978",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apples",
+          "quantity": 5,
+          "purchased": false
+        },
+        {
+          "id": 2,
+          "name": "Bread",
+          "quantity": 2,
+          "purchased": true
+        },
+        {
+          "id": 3,
+          "name": "Milk",
+          "quantity": 1,
+          "purchased": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Weekend Shopping",
+      "createdAt": "2024-01-20T14:30:00Z",
+      "userId": "e81f",
+      "items": [
+        {
+          "id": 4,
+          "name": "Chicken",
+          "quantity": 2,
+          "purchased": false
+        },
+        {
+          "name": "Sushi Rice",
+          "quantity": "300ml ",
+          "purchased": false,
+          "id": 5
+        },
+        {
+          "name": "Rice wine",
+          "quantity": "100ml",
+          "purchased": false,
+          "id": 6
+        },
+        {
+          "name": "Caster Sugar",
+          "quantity": "2 tbs",
+          "purchased": false,
+          "id": 7
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": "3 tbs",
+          "purchased": false,
+          "id": 8
+        },
+        {
+          "name": "Rice wine",
+          "quantity": "1 tbs",
+          "purchased": false,
+          "id": 9
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": "1 tbs",
+          "purchased": false,
+          "id": 10
+        },
+        {
+          "name": "Cucumber",
+          "quantity": "1",
+          "purchased": false,
+          "id": 11
+        },
+        {
+          "name": "Pork",
+          "quantity": "1lb",
+          "purchased": false,
+          "id": 12
+        },
+        {
+          "name": "Garlic Clove",
+          "quantity": "3 chopped",
+          "purchased": false,
+          "id": 13
+        },
+        {
+          "name": "Ginger",
+          "quantity": "1 tsp ",
+          "purchased": false,
+          "id": 14
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": "1 tbs",
+          "purchased": false,
+          "id": 15
+        },
+        {
+          "name": "Sesame Seed Oil",
+          "quantity": "1 tsp ",
+          "purchased": false,
+          "id": 16
+        },
+        {
+          "name": "Carrots",
+          "quantity": "3 finely chopped",
+          "purchased": false,
+          "id": 17
+        },
+        {
+          "name": "Celery",
+          "quantity": "3 finely chopped",
+          "purchased": false,
+          "id": 18
+        },
+        {
+          "name": "Spring Onions",
+          "quantity": "6 chopped",
+          "purchased": false,
+          "id": 19
+        },
+        {
+          "name": "Wonton Skin",
+          "quantity": "1 Packet",
+          "purchased": false,
+          "id": 20
+        }
+      ]
+    },
+    {
+      "id": "277c",
+      "name": "Snacks list",
+      "items": [
+        {
+          "name": "Kulfi",
+          "quantity": 1,
+          "purchased": false,
+          "id": 2
+        }
+      ],
+      "createdAt": "2025-08-04T06:48:38.159Z",
+      "userId": "5978"
+    },
+    {
+      "id": "6a25",
+      "name": "Monthly Grocery",
+      "items": [
+        {
+          "name": "sugar 1kg",
+          "quantity": 1,
+          "purchased": false,
+          "id": 1
+        },
+        {
+          "name": "Kidney Beans",
+          "quantity": "2 cups ",
+          "purchased": false,
+          "id": 2
+        },
+        {
+          "name": "Carrots",
+          "quantity": "1 large",
+          "purchased": false,
+          "id": 3
+        },
+        {
+          "name": "Spring Onions",
+          "quantity": "2 chopped",
+          "purchased": false,
+          "id": 4
+        },
+        {
+          "name": "Thyme",
+          "quantity": "4 sprigs",
+          "purchased": false,
+          "id": 5
+        },
+        {
+          "name": "Onion",
+          "quantity": "1 Diced",
+          "purchased": false,
+          "id": 6
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": "1/2 tsp",
+          "purchased": false,
+          "id": 7
+        },
+        {
+          "name": "Red Pepper",
+          "quantity": "2 chopped",
+          "purchased": false,
+          "id": 8
+        },
+        {
+          "name": "Garlic Clove",
+          "quantity": "4 Mashed",
+          "purchased": false,
+          "id": 9
+        },
+        {
+          "name": "Allspice",
+          "quantity": "1 tbs",
+          "purchased": false,
+          "id": 10
+        },
+        {
+          "name": "Beef",
+          "quantity": "2 Lbs",
+          "purchased": false,
+          "id": 11
+        },
+        {
+          "name": "Water",
+          "quantity": "2L",
+          "purchased": false,
+          "id": 12
+        },
+        {
+          "name": "Potatoes",
+          "quantity": "4",
+          "purchased": false,
+          "id": 13
+        },
+        {
+          "name": "Plain Flour",
+          "quantity": "1 cup ",
+          "purchased": false,
+          "id": 14
+        },
+        {
+          "name": "Water",
+          "quantity": "1/4 cup",
+          "purchased": false,
+          "id": 15
+        },
+        {
+          "name": "Coconut Milk",
+          "quantity": "1 cup ",
+          "purchased": false,
+          "id": 16
+        }
+      ],
+      "userId": "d900",
+      "createdAt": "2025-08-05T06:49:58.947Z"
+    },
+    {
+      "id": "1997",
+      "name": "monthly grocery",
+      "items": [
+        {
+          "name": "onion",
+          "quantity": 4,
+          "purchased": false,
+          "id": 1
+        }
+      ],
+      "userId": "e81f",
+      "createdAt": "2025-08-05T11:05:41.514Z"
+    }
+  ]
+}

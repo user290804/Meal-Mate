@@ -1,0 +1,26 @@
+{
+  "name": "kitchen_system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "@xstate/fsm": "^2.1.0",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "element-plus": "^2.10.4",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^7.0.4"
+  }
+}
